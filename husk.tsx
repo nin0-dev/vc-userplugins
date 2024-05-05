@@ -82,7 +82,7 @@ export default definePlugin({
                 icon: Husk,
                 message: msg,
                 channel: ChannelStore.getChannel(msg.channel_id),
-                onClick: () => Vencord.Webpack.findByProps("addReaction").addReaction(msg.channel_id, msg.id, {id: '859796756111294474', name: 'husk', animated: false})
+                onClick: () => Vencord.Webpack.findByProps("addReaction").addReaction(msg.channel_id, msg.id, {id: '1026532993923293184', name: 'husk', animated: false})
             };
         });
     },
