@@ -22,7 +22,7 @@ import definePlugin from "@utils/types";
 const badVerbs = ["fuck", " cum", "kill", "destroy"];
 const badNouns = ["cunt", "shit", "bullshit", "ass", "bitch", "nigga", "hell", "whore", "dick", "piss", "pussy", "slut", "tit", " fag", "cum", "cock", "retard", "blowjob", "bastard", "men", "man", "kotlin", "die", "sex", "nigger", "gay", "brainrot", "brainless", "mant", "manti", "mantik", "mantika", "mantikaf", "mantikafa", "mantikafas", "mantikafasi", "boykisser", "mewing", "mew", "skibidi", "gyat", "gyatt", "rizzler", "avast"];
 const badVerbsReplacements = ["love", "eat", "deconstruct", "marry", "fart", "teach", "display", "plug", "explode", "undress", "finish", "freeze", "beat", "free", "brush", "allocate", "date", "melt", "breed", "educate", "injure", "change"];
-const badNounsReplacements = ["pasta", "kebab", "cake", "potato", "woman", "computer", "java", "hamburger", "monster truck", "osu!", "Ukrainian ball in search of gas game", "Anime", "Anime girl", "good", "keyboard", "NVIDIA RTX 3090 Graphics Card", "storm", "queen", "single", "umbrella", "mosque", "physics", "bath", "virus", "bathroom", "mom", "owner", "airport", "Avast Antivirus Free", "<@289556910426816513>"];
+const badNounsReplacements = ["pasta", "kebab", "cake", "potato", "woman", "computer", "java", "hamburger", "monster truck", "osu!", "Ukrainian ball in search of gas game", "Anime", "Anime girl", "good", "keyboard", "NVIDIA RTX 3090 Graphics Card", "storm", "queen", "single", "umbrella", "mosque", "physics", "bath", "virus", "bathroom", "mom", "owner", "airport", "Avast Antivirus Free", "removed zt"];
 
 function replaceBadNouns(content) {
     // eslint-disable-next-line quotes
